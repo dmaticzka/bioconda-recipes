@@ -76,6 +76,7 @@ burrito
 burrito-fillings
 bwa
 bx-python
+cairocffi
 cgat-report
 chanjo
 checkm-genome
@@ -269,6 +270,7 @@ r-venndiagram
 r-viridis
 rdflib
 rdflib-jsonld
+rdkit
 requests-cache
 requests-toolbelt
 rpy2
