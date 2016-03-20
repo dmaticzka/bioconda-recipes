@@ -14,9 +14,7 @@ requirements:
     - graphicsmagick
     - cmake
   run:
-test:
-  commands:
-    - which cuneiform
+
 about:
   home: https://launchpad.net/cuneiform-linux/
   license: Simplified BSD Licence 
