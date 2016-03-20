@@ -16,7 +16,7 @@ requirements:
   run:
 test:
   commands:
-    - cuneiform --help > /dev/null
+    - which cuneiform
 about:
   home: https://launchpad.net/cuneiform-linux/
   license: Simplified BSD Licence 
