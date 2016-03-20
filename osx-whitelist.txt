@@ -86,6 +86,7 @@ cnvkit
 colormap
 cpat
 cramtools
+cuneiform
 curl
 cutadapt
 cwltool
@@ -130,6 +131,8 @@ gffutils
 ggplot
 glob2
 gnuplot
+gocr
+graphicsmagick
 grequests
 google-api-python-client
 google-sparsehash
@@ -180,6 +183,7 @@ novoalign
 oauth2client
 oncofuse
 openbabel
+osra
 pbgzip
 peakzilla
 perl
@@ -193,6 +197,7 @@ phonenumbers
 phylotoast
 picard
 planemo
+potrace
 prinseq
 prodigal
 py-graphviz
@@ -305,6 +310,7 @@ svgwrite
 tabulate
 taxtastic
 tbb
+tclap
 toposort
 trackhub
 trimmomatic
