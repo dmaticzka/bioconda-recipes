@@ -1,0 +1,40 @@
+{% set version = "0.1.0master" %}
+
+package:
+  name: omniclip
+  # version: {{ version }}
+
+source:
+  git_url: https://github.com/philippdre/omniCLIP.git
+
+build:
+  number: 0
+  skip: True # [py3k]
+
+requirements:
+  run:
+    - python
+    - biopython >=1.68
+    - brewer2mpl >=1.4
+    - cython >=0.24.1
+    - gffutils >=0.8.7.1
+    - h5py >=2.6.0
+    - intervaltree >=2.1.0
+    - matplotlib >=1.5.3
+    - numpy >=1.11.3
+    - pandas >=0.19.0
+    #- prettyplotlib
+    - pysam >=0.9.1.4
+    - scikit-learn >=0.18.1
+    - scipy >=0.19.0
+    - statsmodels >=0.6.1
+
+test:
+  commands:
+    - echo TODO
+
+about:
+  home: https://github.com/philippdre/omniCLIP
+  license: GPL
+  license_file: LICENSE
+  summary: omniCLIP is a Bayesian peak caller that can be applied to data from CLIP-Seq data to detect regulatory elements in RNAs.
