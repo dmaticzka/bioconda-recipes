@@ -1,0 +1,10 @@
+diff --git stat/CompileCython.sh stat/CompileCython.sh
+index eece74b..e430cbe 100755
+--- stat/CompileCython.sh
++++ stat/CompileCython.sh
+@@ -4,4 +4,4 @@ set -e
+
+ cython viterbi.pyx
+
+-gcc -shared -pthread -fPIC -fwrapv -O2 -Wall -fno-strict-aliasing -I/usr/include/python2.7 -o viterbi.so viterbi.c
++gcc -shared -pthread -fPIC -fwrapv -O2 -Wall -fno-strict-aliasing -I${PREFIX}/include/python2.7 -o viterbi.so viterbi.c

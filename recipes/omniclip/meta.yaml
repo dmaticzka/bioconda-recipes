@@ -6,12 +6,18 @@ package:
 
 source:
   git_url: https://github.com/philippdre/omniCLIP.git
+  patches:
+    - include.patch
 
 build:
   number: 0
   skip: True # [py3k]
 
 requirements:
+  build:
+    - gcc
+    - python
+    - cython >=0.24.1
   run:
     - python
     - biopython >=1.68
