@@ -2,7 +2,7 @@
 
 package:
   name: omniclip
-  # version: {{ version }}
+  version: {{ version }}
 
 source:
   git_url: https://github.com/philippdre/omniCLIP.git
